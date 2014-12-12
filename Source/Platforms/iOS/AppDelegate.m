@@ -50,7 +50,6 @@
     [CCBReader configureCCFileUtils];
     
     // Do any extra configuration of Cocos2d here
-    
     [self setupCocos2dWithOptions:cocos2dSetup];
     
     return YES;

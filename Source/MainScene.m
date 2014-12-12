@@ -11,9 +11,9 @@
 
 - (void)playNow
 {
-    CCScene *gameplayScene = (CCScene *)[CCBReader loadAsScene:@"Gameplay"];
+    CCScene *levelScene = (CCScene *)[CCBReader loadAsScene:@"LevelSelect"];
     CCTransition *sceneTransition = [CCTransition transitionFadeWithDuration:1.0];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene withTransition:sceneTransition];
+    [[CCDirector sharedDirector] replaceScene:levelScene withTransition:sceneTransition];
 }
 
 @end
